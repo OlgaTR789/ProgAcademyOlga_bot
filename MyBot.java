@@ -43,7 +43,7 @@ message.setText("Надаю всю інформацію: " +
         else if (text.equals("6000")) {
             var price_BTC = CryptoPrice.spotPrice("BTC");
             var price_ETH = CryptoPrice.spotPrice("ETH");
-            var price_DOGE = CryptoPrice.spotPrice("ETH");
+            var price_DOGE = CryptoPrice.spotPrice("DOGE");
             message.setText(
                     "BTC price: " + price_BTC.getAmount().doubleValue() * 6000 +
                   "; ETH price: " + price_ETH.getAmount().doubleValue() * 6000 +
