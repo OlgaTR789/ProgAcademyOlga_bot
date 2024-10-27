@@ -34,7 +34,7 @@ public class MyBot extends TelegramLongPollingBot {
             } else if (text.equals("all")) {
                 var price_BTC = CryptoPrice.spotPrice("BTC");
                 var price_ETH = CryptoPrice.spotPrice("ETH");
-                var price_DOGE = CryptoPrice.spotPrice("ETH");
+                var price_DOGE = CryptoPrice.spotPrice("DOGE");
 message.setText("Надаю всю інформацію: " +
         "BTC price: " + price_BTC.getAmount().doubleValue() +
       "; ETH price: " + price_ETH.getAmount().doubleValue() +
